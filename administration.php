@@ -34,14 +34,14 @@ body {
             <label>
               First Name<span class="req">*</span>
             </label>
-            <input type="text"   autocomplete="off" />
+            <input type="text" required name="prenom"  autocomplete="off" />
           </div>
       
           <div class="field-wrap">
             <label>
               Last Name<span class="req">*</span>
             </label>
-            <input type="text"  autocomplete="off"/>
+            <input type="text" required name="nom"  autocomplete="off"/>
           </div>
         </div>
 
@@ -49,14 +49,14 @@ body {
           <label>
             Email Address<span class="req">*</span>
           </label>
-          <input type="email"  autocomplete="off"/>
+          <input type="email" required name="email" autocomplete="off"/>
         </div>
         
         <div class="field-wrap">
           <label>
             Set A Password<span class="req">*</span>
           </label>
-          <input type="password"  autocomplete="off"/>
+          <input type="password" required name="mdp" autocomplete="off"/>
         </div>
         
         <button type="submit" class="button button-block"/>Get Started</button>
@@ -74,14 +74,14 @@ body {
           <label>
             Email Address<span class="req">*</span>
           </label>
-          <input type="email"  autocomplete="off"/>
+          <input type="email" required name="email" autocomplete="off"/>
         </div>
         
         <div class="field-wrap">
           <label>
             Password<span class="req">*</span>
           </label>
-          <input type="password"  autocomplete="off"/>
+          <input type="password" required name="mdp" autocomplete="off"/>
         </div>
         
         <p class="forgot"><a href="#">Forgot Password?</a></p>
